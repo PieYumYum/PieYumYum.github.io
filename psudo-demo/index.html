@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mickey || Pseudo Demo</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to Web 2</h1>
+        <h4>Today we will learn mess with some pseudo classes and elements</h4>
+
+        <hr>
+
+        <h2>Lets first dive deeper into CSS</h2>
+
+        <p>If we think of CSS in terms of selectors, properties and values, then a typical CSS entry would look like this</p>
+
+        <pre>
+            <code>
+                selector {property: value;}
+            </code>
+        </pre>
+
+        <p>To style the above, we need to add 2 tags together. We call this CSS combinators</p>
+
+        <hr>
+
+        <h2>What are sudo classes?</h2>
+        <p>Again, if we think of CSS in terms of selectors and properties and values, then a sudo class is an add-on to a selector</p>
+        <pre>
+            <code>
+                selector:pseudo-class {property:value;}
+            </code>
+        </pre>
+
+        <h4>We use them for links</h4>
+        <p>If we want our <a href="#">link</a> to look different then we can simply add it in my css as follows</p>
+
+        <pre>
+            <code>
+                a {color: red;}
+            </code>
+        </pre>
+
+        <p>But if we want each of our <a href="#">link states</a> to look different then we will use a sudo class like: </p>
+
+        <ul>
+            <li>:visited</li>
+            <li>:hover</li>
+            <li>:active</li>
+        </ul>
+
+        <p>Special <a href="#" class="special">Link</a></p>
+
+        <h4>We can use sudo classes on any tag</h4>
+        <div id="hover-div">
+            <p>Here we will add a hover to our div</p>
+            <p>What do you think</p>
+        </div>
+
+        <h4>We can even call on specific selectors depending on their hierarchy</h4>
+        <p>style in above div will change </p>
+
+
+
+    </div>
+
+</body>
+
+</html>
