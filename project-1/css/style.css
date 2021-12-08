@@ -1,5 +1,5 @@
 body {
-    background-color: gainsboro;
+    background-color: azure;
 }
 
 menu {
@@ -7,18 +7,18 @@ menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: cadetblue;
+    background-color: rgb(138, 199, 201);
 }
 
 li {
     float: left;
-    color: gainsboro;
+    color: azure;
 }
 
 li a {
     display: block;
     padding: 9px;
-    background-color: cadetblue;
+    background-color: rgb(138, 199, 201);
 }
 
 .hs {
@@ -50,4 +50,8 @@ li a {
     background: lightsalmon;
     margin: 200px auto 0 auto;
     padding: 0;
+}
+
+.about-me {
+    background-color: lightskyblue;
 }
