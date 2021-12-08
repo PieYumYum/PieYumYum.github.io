@@ -1,0 +1,53 @@
+body {
+    background-color: gainsboro;
+}
+
+menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: cadetblue;
+}
+
+li {
+    float: left;
+    color: gainsboro;
+}
+
+li a {
+    display: block;
+    padding: 9px;
+    background-color: cadetblue;
+}
+
+.hs {
+    text-align: center;
+}
+
+.pics {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.header1 {
+    color: black;
+}
+
+.header2 {
+    color: purple;
+    margin: 100 px 200px 0px 0px;
+}
+
+.navpage {
+    margin: auto;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    background: lightsalmon;
+    margin: 200px auto 0 auto;
+    padding: 0;
+}
