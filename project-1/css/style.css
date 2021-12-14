@@ -1,5 +1,5 @@
 body {
-    background-color: azure;
+    background-color: #E7E6E1;
 }
 
 menu {
@@ -7,18 +7,30 @@ menu {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(138, 199, 201);
+    background-color: #314E52;
+}
+
+.about-me {
+    background-color: #F7F6E7;
+    padding: 20px;
 }
 
 li {
     float: left;
-    color: azure;
+}
+
+footer {
+    text-align: center;
+    bottom: 10px;
+    width: 100%;
+    background: #314E52;
+    color: #F2A154;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 li a {
     display: block;
     padding: 9px;
-    background-color: rgb(138, 199, 201);
 }
 
 .hs {
@@ -36,7 +48,7 @@ li a {
 }
 
 .header2 {
-    color: purple;
+    color: #cc8746;
     margin: 100 px 200px 0px 0px;
 }
 
@@ -52,8 +64,28 @@ li a {
     padding: 0;
 }
 
-.about-me {
-    background-color: lightskyblue;
+a:link {
+    color: #21094E;
 }
 
-a:link {}
+a:visited {
+    color: #F2A154;
+}
+
+a.links:hover {
+    color: hotpink;
+}
+
+#name {
+    color: #F2A154;
+}
+
+h2,
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1,
+a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
