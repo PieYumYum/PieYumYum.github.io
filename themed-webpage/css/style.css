@@ -1,23 +1,23 @@
 body {
     /* background: rgb(231, 231, 231); */
-    background-image: url('https://i.ytimg.com/vi/F725_-vtI88/maxresdefault.jpg');
+    background-image: url('https://external-preview.redd.it/VGisOF5hIq9H46abdFDPjiqkbIIiTrR6T8QLiRDRQpY.png?auto=webp&s=88fe1be5ea34795f7544512cd8f6f5ccd6d61f09');
 }
 
 h1 {
     text-align: center;
     margin-top: 40px;
     animation-name: paragraph;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
-p {
+.main {
     text-align: center;
     color: black;
     font-size: 40px;
-    margin-top: -10px;
+    margin-top: 10px;
     text-decoration: underline;
     animation-name: paragraph;
-    animation-duration: 3s;
+    animation-duration: 7s;
 }
 
 .join-text {
@@ -36,9 +36,49 @@ p {
 
 @keyframes paragraph {
     0% {
-        color: rgba(255, 163, 126, 0.459);
+        color: rgba(255, 163, 126, 0);
     }
     100% {
-        color: black;
+        color: rgb(0, 0, 0);
+    }
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.footer {
+    font-size: 15px;
+    color: white;
+    position: fixed;
+    bottom: 5px;
+    animation-name: footer;
+    animation-duration: 4s;
+}
+
+@keyframes footer {
+    0% {
+        margin-left: -500px;
     }
 }
