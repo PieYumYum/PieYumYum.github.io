@@ -22,6 +22,7 @@ h1 {
 
 .text {
     background: rgba(255, 163, 126, 0.459);
+    height: 16vh;
 }
 
 .navBar {
