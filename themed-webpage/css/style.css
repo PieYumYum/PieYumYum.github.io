@@ -1,0 +1,44 @@
+body {
+    /* background: rgb(231, 231, 231); */
+    background-image: url('https://i.ytimg.com/vi/F725_-vtI88/maxresdefault.jpg');
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    animation-name: paragraph;
+    animation-duration: 3s;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: -10px;
+    text-decoration: underline;
+    animation-name: paragraph;
+    animation-duration: 3s;
+}
+
+.join-text {
+    font-size: 20px;
+    position: fixed;
+    text-align: center;
+    bottom: 10px;
+    width: 98.5%;
+    animation-name: paragraph;
+    background-color: rgba(255, 163, 126, 0.459);
+}
+
+.text {
+    background: rgba(255, 163, 126, 0.459);
+}
+
+@keyframes paragraph {
+    0% {
+        color: rgba(255, 163, 126, 0.459);
+    }
+    100% {
+        color: black;
+    }
+}
