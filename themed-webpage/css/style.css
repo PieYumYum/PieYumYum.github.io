@@ -13,25 +13,19 @@ h1 {
 .main {
     text-align: center;
     color: black;
-    font-size: 40px;
+    font-size: 5vh;
     margin-top: 10px;
     text-decoration: underline;
     animation-name: paragraph;
     animation-duration: 7s;
 }
 
-.join-text {
-    font-size: 20px;
-    position: fixed;
-    text-align: center;
-    bottom: 10px;
-    width: 98.5%;
-    animation-name: paragraph;
-    background-color: rgba(255, 163, 126, 0.459);
-}
-
 .text {
     background: rgba(255, 163, 126, 0.459);
+}
+
+.navBar {
+    font-size: 2.7vh;
 }
 
 @keyframes paragraph {
@@ -69,7 +63,7 @@ li a:hover {
 }
 
 .footer {
-    font-size: 15px;
+    font-size: 3vh;
     color: white;
     position: fixed;
     bottom: 5px;
