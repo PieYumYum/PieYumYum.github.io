@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: "Noto Sans";
+}
+
+h1 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+a {
+    font-size: 1.2vw;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: lightblue;
+}
+
+.nav {
+    float: right;
+    text-decoration: none;
+}
+
+.header {
+    padding: 10px;
+    background-color: rgba(172, 43, 43, 0.486);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.picture {
+    text-align: center;
+}
+
+img {
+    size: 1vw;
+    max-width: 50%;
+    height: auto;
+}
