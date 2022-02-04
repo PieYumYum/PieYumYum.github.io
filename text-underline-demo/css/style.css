@@ -1,0 +1,85 @@
+* {
+    padding: 5;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    padding-left: 10px;
+    padding-top: 10px;
+    text-align: left;
+}
+
+html,
+body {
+    font-family: 'Noto Sans';
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sLink {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    font-size: 3rem;
+    background: linear-gradient(to bottom, #000, #000 68%, #fff 60%, #fff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    transition: background 0.2s ease-out;
+    white-space: nowrap;
+}
+
+span {
+    position: relative;
+}
+
+span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 13px;
+    background: rgb(0, 0, 0);
+    bottom: 9px;
+    transition: all 0.2s ease-out;
+}
+
+p:hover {
+    background-position: 0 11px;
+}
+
+span:hover:before {
+    transform: translateY(10px)
+}
+
+.p1 {
+    font-size: 12px;
+    transform: translateX(5px);
+}
+
+.p2 {
+    font-size: 12px;
+    transform: translateX(5px);
+}
+
+.container {
+    padding: 10px;
+}
+
+pre code {
+    background: black;
+    border: 1px solid gray;
+    display: block;
+    padding: 10px;
+    color: green;
+}

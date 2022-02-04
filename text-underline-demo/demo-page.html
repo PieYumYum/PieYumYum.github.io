@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lets Get Started!</h1>
+
+        <p>The first thing you will need is a html page and a CS page, no JS for this</p>
+
+        <p>For the html page, instead of using an 'a' tag to make a link, we use a 'span' tag</p>
+        <mark class="p1"> Of course replace the '{' with '
+            < ' here</mark>
+        <pre>
+        <code>
+            {span class="link" onclick="location='# '"} {/span}
+        </code>
+    </pre>
+
+        <p>Next, we want to put that in a 'main ' tag, and put a 'p ' tag inside of the span like so</p>
+
+        <pre>
+        <code>
+            {main} 
+                {span class="link" onclick="location='# '"} 
+                    {p class="temp"} something for the button to say here {/p} 
+                {/span} 
+            {/main}
+        </code>
+    </pre>
+
+        <p>The reason we need to give the 'p ' tag a class is so we can just mess whith that css instead of ever p tag we use </p>
+        <br>
+        <p>And with that we are done with the html so lets head over to the css</p>
+        <br>
+        <hr>
+
+        <p>To start we need to change everything to have a padding of 5, margin of 0, and have a box sizing of border box</p>
+        <p>Then we add some style to the body</p>
+
+        <pre>
+        <code>
+            * {
+                padding: 5;
+                margin: 0;
+                box-sizing: border-box;
+            }
+                        
+            html,
+            body {
+                font-family: 'what ever font you want ';
+                width: 100%;
+                height: 100%;
+                font-size: 16px;
+            }
+        </code>
+    </pre>
+
+        <p>So now onto the good stuff, we need to aline everything in the main tag and then we use that class from before, my example here is called sLink... cause its a special link.</p>
+
+        <pre>
+        <code>
+            main {
+                display: flex;
+                height: 50%; -- changes the position of the link
+                align-items: center; -^
+                justify-content: center;
+            }
+            
+            .sLink {
+                cursor: pointer;
+                position: relative;
+                display: inline-block;
+                font-size: 3rem;
+                background: linear-gradient(to bottom, #000, #000 68%, #fff 60%, #fff 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                background-repeat: no-repeat;
+                transition: background 0.2s ease-out;
+                white-space: nowrap;
+            }
+        </code>
+    </pre>
+        <p class="p2">You can mess with all the colors here and see what looks best on your website, to change the color of the bar you have to wait a sec</p>
+
+        <p>All of the next part is messing with the bar to make it animate, you can adjust alot of the animation here, the :hover:before makes it go down a certain amount, the height changes its starting pos and the background color changes the bars color</p>
+
+        <pre>
+        <code>
+            span {
+                position: relative;
+            }
+            
+            span:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                right: 0;
+                height: 13px;
+                background: rgb(0, 0, 0);
+                bottom: 9px;
+                transition: all 0.2s ease-out;
+            }
+            
+            p:hover {
+                background-position: 0 11px;
+            }
+            
+            span:hover:before {
+                transform: translateY(10px)
+            }
+        </code>
+    </pre>
+
+        <h2>And with that you're done! </h2>
+
+        <main>
+            <span class="link" onclick="location='#'">
+                <p class="sLink">And this should be what you see!</p>
+            </span>
+        </main>
+
+
+    </div>
+
+</body>
+
+</html>
