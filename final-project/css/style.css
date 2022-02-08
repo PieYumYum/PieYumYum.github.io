@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+    margin: 0;
+    padding: 10px;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.navMenu {
+    position: absolute;
+    text-align: left;
+    padding: 5px;
+    animation-name: nav-fade-in;
+    animation-duration: 5s;
+}
+
+.navMenu a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: rgb(212, 212, 212);
+    border-radius: 15%;
+}
+
+.navMenu a:hover {
+    color: rgb(108, 184, 250);
+}
+
+.header {
+    font-size: 2vw;
+    font-family: sans-serif;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation-name: fade-in;
+    animation-duration: 3s;
+}
+
+@keyframes fade-in {
+    0% {
+        top: -100%;
+    }
+}
+
+@keyframes nav-fade-in {
+    0% {
+        margin-left: -1000px;
+    }
+}
+
+span {
+    display: inline-block;
+    font-weight: bolder;
+    animation: mover 6s linear infinite;
+}
+
+@keyframes mover {
+    0% {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+    }
+    50% {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0.30);
+        transform: translateY(30px);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(0, 0, 0, 0);
+    }
+}
+
+span:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+span:nth-child(2) {
+    animation-delay: 1s;
+}
+
+span:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+span:nth-child(4) {
+    animation-delay: 2s;
+}
+
+span:nth-child(5) {
+    animation-delay: 2.5s;
+}
+
+span:nth-child(6) {
+    animation-delay: 3s;
+}
+
+span:nth-child(7) {
+    animation-delay: 3.5s;
+}
