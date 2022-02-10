@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+}
+
+h1 {
+    font-size: 4vw;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+h3 {
+    font-size: 1.8vw;
+}
+
+p,
+a {
+    font-size: 1.2vw;
+}
+
+header {
+    background-color: black;
+    color: white;
+    height: 120px;
+    position: sticky;
+    top: -50px;
+}
+
+.header-inner {
+    float: left;
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+
+.logo {
+    float: left;
+    width: 30%;
+    padding-left: 40px;
+}
+
+nav {
+    float: left;
+    text-align: right;
+    width: 70%;
+    padding: 33px 40px;
+}
+
+nav a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.banner {
+    background-color: darkgray;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* responsive elements */
+
+.left {
+    float: left;
+    width: 20%;
+}
+
+.main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+}
+
+.right {
+    float: left;
+    width: 20%;
+    background-color: darkgray;
+    color: lightgreen;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+/* nav style */
+
+.side-nav a {
+    background-color: darkgray;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+
+/* footer style */
+
+.footer {
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+    clear: both;
+}
+
+footer {
+    width: 60%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width:620px) {
+    .left,
+    .main,
+    .right {
+        width: 100%;
+    }
+}
+
+@media (min-width:621px) and (max-width:1000px) {
+    .main {
+        width: 80%;
+    }
+    .right {
+        width: 100%;
+    }
+}
