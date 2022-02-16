@@ -87,7 +87,7 @@ h3 {
 img {
     width: 30%;
     margin-top: -80px;
-    border: dotted rgba(249, 171, 121) 3px;
+    border: dotted rgba(249, 171, 121, 0.9) 3px;
 }
 
 #self-pic {
