@@ -76,17 +76,46 @@ h3 {
     background-color: rgba(249, 171, 121, 0.651);
 }
 
-.left-side {
+.a-left-side {
+    float: left;
     background-color: rgba(249, 171, 121, 0.9);
     width: 50%;
-    margin-top: 50px;
-    /* padding-bottom: 30%;   */
+    margin-top: 40px;
     border: solid rgb(87, 63, 57) 2px;
+}
+
+.p-left-side {
+    text-align: center;
+    float: left;
+    background-color: rgba(249, 171, 121, 0.9);
+    width: 30%;
+    margin-top: 40px;
+    border: solid rgb(87, 63, 57) 2px;
+}
+
+.middle-right {
+    text-align: center;
+    float: left;
+    background-color: rgba(249, 171, 121, 0.9);
+    width: 30%;
+    margin-top: 40px;
+    margin-left: 20px;
+    border: solid rgb(87, 63, 57) 2px;
+}
+
+.p-header {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    margin-left: 24%;
+    background-color: rgba(249, 171, 121, 0.7);
+    width: 50%;
+    font-family: 'Roboto';
 }
 
 img {
     width: 30%;
-    margin-top: -80px;
+    margin-top: 140px;
     border: dotted rgba(249, 171, 121, 0.9) 3px;
 }
 
