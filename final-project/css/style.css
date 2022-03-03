@@ -77,10 +77,12 @@ h3 {
 }
 
 .a-left-side {
+    font-family: 'Noto Sans', sans-serif;
     float: left;
     background-color: rgba(249, 171, 121, 0.9);
     width: 50%;
     margin-top: 40px;
+    padding-bottom: 10vw;
     border: solid rgb(87, 63, 57) 2px;
 }
 
@@ -111,16 +113,6 @@ h3 {
     background-color: rgba(249, 171, 121, 0.7);
     width: 50%;
     font-family: 'Roboto';
-}
-
-img {
-    width: 30%;
-    margin-top: 140px;
-    border: dotted rgba(249, 171, 121, 0.9) 3px;
-}
-
-#self-pic {
-    text-align: right;
 }
 
 footer {

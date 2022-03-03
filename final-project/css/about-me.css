@@ -1,0 +1,22 @@
+img {
+    width: 30%;
+    margin-top: 140px;
+    border: dotted rgba(249, 171, 121, 0.9) 3px;
+}
+
+#self-pic {
+    text-align: right;
+    position: relative;
+    z-index: -1;
+}
+
+.pic-text {
+    color: rgba(255, 255, 255, 0);
+    margin-left: 950px;
+    margin-top: -200px;
+}
+
+.pic-text:hover {
+    color: white;
+    background-color: black;
+}

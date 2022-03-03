@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pricing || Mickey</title>
+    <title>Contact || Mickey</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/videobg.css">
     <link rel="stylesheet" href="css/nav-try.css">
+    <link rel="stylesheet" href="css/contact.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -18,7 +19,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -37,25 +37,40 @@
     </nav>
 
 
-    <div class="p-header">
-        <h1>These are my pricings for website design!</h1>
+    <h1 id="header">Contact Us!</h1>
 
-    </div>
+    <form id="first-name">
+        First Name*
+        <br>
+        <input type="text">
+    </form>
 
-    <div class="p-left-side">
-        <h1>Starter</h1>
-        <p>Starts at <br> $45/mo <br> Does not include marketing</p>
-    </div>
+    <form id="last-name">
+        Last Name *
+        <br>
+        <input type="text">
 
-    <div class="middle-right">
-        <h1>Professional</h1>
-        <p>Starts at <br> $800/mo <br> Includes light marketing</p>
-    </div>
+    </form>
 
-    <div class="middle-right">
-        <h1>Enterprise</h1>
-        <p>Starts at <br> $3,200/mo <br> Includes professional marketing</p>
-    </div>
+    <form id="email">
+        Email Address*
+        <br>
+        <input type="text">
+    </form>
+
+    <form id="p-request">
+        Purchase request
+        <br>
+        <select name="money">
+            <option value="starter">Starter</option>
+            <option value="professional">Professional</option>
+            <option value="enterprise">Enterprise</option>
+        </select>
+    </form>
+
+    <form id="submit-button">
+        <input type="submit">
+    </form>
 
 
 

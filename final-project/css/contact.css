@@ -1,0 +1,40 @@
+#header {
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    background-color: rgb(37, 57, 66, 0.9);
+}
+
+form {
+    font-family: 'Noto Sans', sans-serif;
+    float: left;
+    color: white;
+}
+
+input {
+    width: 100%;
+    border-radius: 5px;
+}
+
+#first-name {
+    width: 20%;
+}
+
+#last-name {
+    padding-left: 50px;
+}
+
+#email {
+    position: absolute;
+    margin-top: 100px;
+    width: 37%;
+}
+
+#p-request {
+    position: absolute;
+    margin-top: 200px;
+}
+
+#submit-button {
+    position: absolute;
+    margin-top: 300px;
+}
