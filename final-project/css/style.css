@@ -93,6 +93,7 @@ h3 {
     width: 30%;
     margin-top: 40px;
     border: solid rgb(87, 63, 57) 2px;
+    border-radius: 10px;
 }
 
 .middle-right {
@@ -103,6 +104,7 @@ h3 {
     margin-top: 40px;
     margin-left: 20px;
     border: solid rgb(87, 63, 57) 2px;
+    border-radius: 10px;
 }
 
 .p-header {
@@ -112,7 +114,9 @@ h3 {
     margin-left: 24%;
     background-color: rgba(249, 171, 121, 0.7);
     width: 50%;
-    font-family: 'Roboto';
+    font-family: 'Noto Sans', sans-serif;
+    border-radius: 10px;
+    border: solid rgb(87, 63, 57) 2px;
 }
 
 footer {

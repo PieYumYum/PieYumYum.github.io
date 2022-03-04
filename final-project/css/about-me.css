@@ -10,21 +10,27 @@ img {
     z-index: -1;
 }
 
-
-/* .pic-text {
-    color: rgba(255, 255, 255);
-    margin-top: -15%;
-    text-align: center;
+.pic-text {
+    position: absolute;
+    color: rgba(255, 255, 255, 0);
+    background: rgba(128, 128, 128, 0);
+    width: 25%;
+    margin-left: 66.5%;
+    margin-top: -8%;
+    border-radius: 5px;
+    z-index: 2;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .pic-text:hover {
     color: white;
-    background-color: rgba(128, 128, 128, 0.767);
-    width: 28%;
-
-
+    background: rgba(128, 128, 128, 0.767);
+    margin-top: -8%;
+    width: 25%;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: small;
 }
 
 #text {
     margin: auto;
-} */
+}
