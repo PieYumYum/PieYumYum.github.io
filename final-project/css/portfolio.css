@@ -1,0 +1,35 @@
+img {
+    padding-left: 2%;
+}
+
+div {
+    float: left;
+}
+
+.works {
+    width: 50%;
+}
+
+.img-dsc {
+    background-color: rgba(249, 171, 121, 0.7);
+    margin-left: 50px;
+    margin-bottom: 20px;
+    width: 46%;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 2.5rem;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
